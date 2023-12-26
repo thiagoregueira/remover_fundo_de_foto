@@ -10,6 +10,8 @@ def remover_fundo(foto, widget):
     widget.image(output)
 
 
+st.set_page_config(page_title="Remover fundo de fotos", page_icon="📷", layout="wide")
+
 st.title("Removendo fundo de fotos")
 
 foto = st.file_uploader("Escolha uma foto", type=["png", "jpg", "jpeg"])
