@@ -50,7 +50,7 @@ scikit-image
 scipy
 six
 smmap
-streamlit
+streamlit>=1.30.0
 sympy
 tenacity
 tifffile
